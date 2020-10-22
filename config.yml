@@ -39,27 +39,27 @@ steps:
 
 # Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
  - title: create pr
-  description: create pr
-  event: pull_request
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: Merge_PR
+   description: create pr
+   event: pull_request
+   actions: # a list of the actions that will occur when the step is triggered by an event
+   - type: Merge_PR
 
 # Step 3: EDIT HERE - INTERNAL COMMENT FOR STEP 3
  - title: comment1
-  description: comment
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: Merge_PR
+   description: comment
+   actions: # a list of the actions that will occur when the step is triggered by an event
+   - type: Merge_PR
 
 # Step 4: EDIT HERE - INTERNAL COMMENT FOR STEP 4
  - title: push more
-  description: push more
-  event: push
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: Merge_PR
+   description: push more
+   event: push
+   actions: # a list of the actions that will occur when the step is triggered by an event
+   - type: Merge_PR
 
 # Step 5: EDIT HERE - INTERNAL COMMENT FOR STEP 5
  - title: comment2
-  description: comment
-  event: commit_comment
-  actions: # a list of the actions that will occur when the step is triggered by an event
-  - type: Merge_PR
+   description: comment
+   event: commit_comment
+   actions: # a list of the actions that will occur when the step is triggered by an event
+   - type: Merge_PR
