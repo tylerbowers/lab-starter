@@ -1,6 +1,6 @@
-title: # a name for your Learning Lab course
-tagline: # a short description for your Learning Lab course, displayed on the course catalog
-description: # a longer description for your Learning Lab course, displayed on the course's landing page
+title: Node student lab
+tagline: Node learning lab for students
+description: A github learning lab for students to learn Node and how it works and what not.
 
 # Repository setup
 # The following section template information for the repository
