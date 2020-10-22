@@ -14,7 +14,7 @@ template:
 # Actions to take place after the learner registers, but before they start interacting with their repo
 
 before:
-- type:
+- type: respond
   with: 01_first-response.md
 
 # Steps for the course
