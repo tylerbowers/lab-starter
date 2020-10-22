@@ -26,13 +26,11 @@ steps:
 - title: create route
   description: create route
   event: push
-  actions:
-
-
-  - type: gate                            
-    left: '%payload.pull_request.title%'  
-    operator: ===                         
-    right: Add name to README
+  actions: 
+  - type: gate
+    left: '%payload.pull_request.title%'
+    operator: ===
+    right: "Creating the config file"
 
 # Step 2: EDIT HERE -INTERNAL COMMENT FOR STEP 2
  - title: create pr
